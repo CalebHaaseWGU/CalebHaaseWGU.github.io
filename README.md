@@ -1,18 +1,3 @@
-/website
-|-- /images
-|   |-- losangeles.jpg
-|   |-- sanfrancisco.jpg
-|   |-- sacramento.jpg
-|   |-- sandiego.jpg
-|
-|-- index.html
-|-- losangeles.html
-|-- sanfrancisco.html
-|-- sacramento.html
-|-- sandiego.html
-|-- styles.css
-|-- script.js
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -72,71 +57,6 @@
     </footer>
 </body>
 </html>
-
-
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav a:hover {
-    background-color: #eee;
-}
-
-aside {
-    float: right;
-    width: 20%;
-}
-
-section {
-    width: 75%;
-    position: relative;
-}
-
-.footer-form {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-}
-
-h1.title {
-    color: red;
-}
-
-#specialNote {
-    border: 1px solid black;
-    padding: 10px;
-}
-
-.item-highlighted {
-    background-color: yellow;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
