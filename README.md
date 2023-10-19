@@ -12,7 +12,7 @@
 <body>
     <header>
         <h1>Welcome to California</h1>
-        <img src="images/california.jpg" alt="California view">
+        <img src="https://www.osano.com/hubfs/assets/blogs/featured/Virginia%20road%20sign.jpg" alt="Virginia">
     </header>
     <nav>
         <ul>
