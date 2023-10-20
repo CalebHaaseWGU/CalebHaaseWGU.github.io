@@ -53,6 +53,47 @@
 
 
 
+function generatePage(city) {
+    const contentArea = document.getElementById('content');
+    let content = '';
+
+    switch (city) {
+        case 'Home':
+            content = `
+                <h2>Welcome to California</h2>
+                <p>California is known for its golden beaches and sunny weather...</p>
+            `;
+            break;
+        case 'Los Angeles':
+            content = `
+                <h2>Los Angeles</h2>
+                <p>Los Angeles is known for Hollywood and much more...</p>
+            `;
+            break;
+        case 'San Francisco':
+            content = `
+                <h2>San Francisco</h2>
+                <p>San Francisco is known for the Golden Gate Bridge...</p>
+            `;
+            break;
+        case 'Sacramento':
+            content = `
+                <h2>Sacramento</h2>
+                <p>Sacramento is the capital of California...</p>
+            `;
+            break;
+        case 'San Diego':
+            content = `
+                <h2>San Diego</h2>
+                <p>San Diego is known for its lovely beaches and parks...</p>
+            `;
+            break;
+        default:
+            content = '<p>Sorry, the content for this city is not available at the moment.</p>';
+    }
+
+    contentArea.innerHTML = content;
+}
 
 
 
