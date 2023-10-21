@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+.some-class {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#some-id {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* Remove default padding, margin, and list style */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* this will center the menu if there's space on either side */
+}
+
+/* Display links side by side */
+nav li {
+    display: inline-block;
+    margin-right: 20px; /* adjust spacing between links as needed */
+}
+
+/* Style the actual links */
+nav a {
+    text-decoration: none; /* removes underlining */
+    color: black; /* choose your preferred color */
+    padding: 8px 16px; /* adds some padding around the links */
+    transition: background-color 0.3s; /* smooth transition for hover effect */
+}
+
+/* Add a hover effect for the links */
+nav a:hover {
+    background-color: #eee; /* choose your preferred hover color */
+}
+
+/* Clear any floats for the section's content */
+section img, section h2, section p {
+    display: block;
+    float: none;
+    clear: both;
+}
+
+/* Add some margin below the image for better spacing */
+section img {
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #858585; /* This is a shade of blue. You can change this hexadecimal value to any color you prefer. */
+    padding: 10px 0; /* This adds some space around the navigation links. */
+}
+
+.site-header {
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 3px 0; /* Some vertical spacing */
+    text-align: center; /* Center the text */
+    border-bottom: 3px solid #3498db; /* A blue bottom border */
+    font-size: 1.1em; /* Make the text a bit larger */
+    margin-bottom: 20px; /* Space between the header and navigation */
+}
+
+
+table {
+    width: 100%; /* Take up full container width */
+    border-collapse: collapse; /* Remove spaces between borders */
+}
+
+th, td {
+    border: 1px solid #dddddd; /* Light gray border */
+    padding: 8px 12px; /* Padding inside each cell */
+    text-align: left; /* Left-align text */
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+
+.attraction-box {
+    position: absolute;  /* Use absolute positioning to place the box */
+    top: 10%;  /* Adjust this value as needed to position from the top of the page */
+    right: 2%;  /* Set to the far right with a little margin */
+    width: 20%;  /* Adjust the width as desired */
+    padding: 10px;  
+    border: 2px solid #ddd;  /* Give it a border */
+    background-color: #f9f9f9;  /* Light gray background color */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);  /* Optional: Add a subtle shadow */
+}
+
+.attraction-box ul {
+    list-style-type: disc;  /* Ensure the list has bullets */
+    padding-left: 20px;  /* Indent the list items */
+}
